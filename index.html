@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Boxicons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts: Inter for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Chandan Pullanikatt - Full Stack Developer</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Chandan.</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HERO =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <span class="home__greeting">Hello, I'm Chandan</span>
+                <h1 class="home__title">Full Stack Developer <br> <span class="home__title-color">Building Scalable Web
+                        Apps</span></h1>
+                <p class="home__description">I build pixel-perfect, accessible, and performant web applications using
+                    React, Next.js, and modern TypeScript. Focused on delivering premium user experiences.</p>
+
+                <div class="home__buttons">
+                    <a href="#projects" class="button button--primary">View Projects</a>
+                    <a href="assets/pdf/resume.pdf" class="button button--secondary" target="_blank">Download Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://github.com/Chandan-pullanikatt" target="_blank" class="home__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/chandan-pullanikatt/" target="_blank"
+                        class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="mailto:chandanpullanikatt@gmail.com" class="home__social-icon"><i
+                            class='bx bx-envelope'></i></a>
+                </div>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.jpg" alt="Chandan Pullanikatt">
+            </div>
+        </section>
+
+        <!--===== PROJECTS =====-->
+        <section class="work section" id="projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="work__container bd-grid">
+
+                <!-- Project 1: Animato -->
+                <div class="work__card">
+                    <div class="work__img">
+                        <img src="assets/img/project-animato.png" alt="Animato AI Project">
+                    </div>
+                    <div class="work__content">
+                        <h3 class="work__title">Animato <span class="badge">Hackathon Winner</span></h3>
+                        <p class="work__text">AI-powered storytelling platform that converts text to animated video
+                            content instantly.</p>
+                        <div class="work__tech">
+                            <span class="tech-tag">React</span><span class="tech-tag">Node.js</span><span
+                                class="tech-tag">OpenAI API</span><span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="work__impact">
+                            <i class='bx bx-trophy'></i> Won 1st place; generated 500+ videos in beta.
+                        </div>
+                        <div class="work__links">
+                            <a href="#" class="work__link" target="_blank">Live Demo <i
+                                    class='bx bx-link-external'></i></a>
+                            <a href="#" class="work__link" target="_blank">GitHub <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: SmartGST -->
+                <div class="work__card">
+                    <div class="work__img">
+                        <img src="assets/img/project-smartgst.png" alt="SmartGST Dashboard">
+                    </div>
+                    <div class="work__content">
+                        <h3 class="work__title">SmartGST</h3>
+                        <p class="work__text">Comprehensive GST billing and business management system for small
+                            enterprises.</p>
+                        <div class="work__tech">
+                            <span class="tech-tag">Next.js</span><span class="tech-tag">PostgreSQL</span><span
+                                class="tech-tag">Tailwind</span><span class="tech-tag">Supabase</span>
+                        </div>
+                        <div class="work__impact">
+                            <i class='bx bx-trending-up'></i> Reduced billing time by 40% for pilot users.
+                        </div>
+                        <div class="work__links">
+                            <a href="#" class="work__link" target="_blank">Live Demo <i
+                                    class='bx bx-link-external'></i></a>
+                            <a href="#" class="work__link" target="_blank">GitHub <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: AgnosHeal -->
+                <div class="work__card">
+                    <div class="work__img">
+                        <img src="assets/img/project-agnosheal.png" alt="AgnosHeal App">
+                    </div>
+                    <div class="work__content">
+                        <h3 class="work__title">AgnosHeal</h3>
+                        <p class="work__text">Real-time patient intake and hospital staff monitoring dashboard.</p>
+                        <div class="work__tech">
+                            <span class="tech-tag">React Native</span><span class="tech-tag">Firebase</span><span
+                                class="tech-tag">Redux</span>
+                        </div>
+                        <div class="work__impact">
+                            <i class='bx bx-check-circle'></i> Streamlined patient check-in flow by 30%.
+                        </div>
+                        <div class="work__links">
+                            <a href="https://agnosheal.onrender.com/" class="work__link" target="_blank">Live Demo <i
+                                    class='bx bx-link-external'></i></a>
+                            <a href="#" class="work__link" target="_blank">GitHub <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Dear Diary -->
+                <div class="work__card">
+                    <div class="work__img">
+                        <img src="assets/img/project-deardiary.png" alt="Dear Diary App">
+                    </div>
+                    <div class="work__content">
+                        <h3 class="work__title">Dear Diary</h3>
+                        <p class="work__text">Modern, privacy-focused notes and journaling application with rich text
+                            support.</p>
+                        <div class="work__tech">
+                            <span class="tech-tag">MERN Stack</span><span class="tech-tag">JWT Auth</span><span
+                                class="tech-tag">Encryption</span>
+                        </div>
+                        <div class="work__impact">
+                            <i class='bx bx-user'></i> Acquired 100+ active users within first month.
+                        </div>
+                        <div class="work__links">
+                            <a href="#" class="work__link" target="_blank">Live Demo <i
+                                    class='bx bx-link-external'></i></a>
+                            <a href="#" class="work__link" target="_blank">GitHub <i class='bx bxl-github'></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills__container bd-grid">
+
+                <div class="skills__group">
+                    <h3 class="skills__subtitle">Frontend</h3>
+                    <div class="skills__list">
+                        <span class="skills__tag">React</span>
+                        <span class="skills__tag">Next.js</span>
+                        <span class="skills__tag">React Native</span>
+                        <span class="skills__tag">TypeScript</span>
+                        <span class="skills__tag">Tailwind CSS</span>
+                        <span class="skills__tag">Redux/Zustand</span>
+                        <span class="skills__tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="skills__group">
+                    <h3 class="skills__subtitle">Backend</h3>
+                    <div class="skills__list">
+                        <span class="skills__tag">Node.js</span>
+                        <span class="skills__tag">Django REST</span>
+                        <span class="skills__tag">Express</span>
+                        <span class="skills__tag">Python</span>
+                    </div>
+                </div>
+
+                <div class="skills__group">
+                    <h3 class="skills__subtitle">Databases</h3>
+                    <div class="skills__list">
+                        <span class="skills__tag">PostgreSQL</span>
+                        <span class="skills__tag">MongoDB</span>
+                        <span class="skills__tag">Supabase</span>
+                    </div>
+                </div>
+
+                <div class="skills__group">
+                    <h3 class="skills__subtitle">Tools & Cloud</h3>
+                    <div class="skills__list">
+                        <span class="skills__tag">Git/GitHub</span>
+                        <span class="skills__tag">AWS</span>
+                        <span class="skills__tag">Docker</span>
+                        <span class="skills__tag">Figma</span>
+                        <span class="skills__tag">Vercel</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--===== EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience__container bd-grid">
+                <div class="experience__card">
+                    <div class="experience__header">
+                        <h3 class="experience__role">MERN Stack Developer Intern <span class="experience__company">@
+                                Cipher Schools</span></h3>
+                        <span class="experience__date">June 2024 - July 2024</span>
+                    </div>
+                    <ul class="experience__list">
+                        <li>Completed hands-on MERN training, building full-stack applications with React.js, Node.js,
+                            Express.js, and MongoDB.</li>
+                        <li>Built full-stack web applications using the MERN stack (MongoDB, Express.js, React.js,
+                            Node.js).</li>
+                        <li>Developed secure RESTful APIs and implemented authentication, CRUD operations, and modular
+                            frontend components.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <p class="about__text">
+                        I am a product-focused Full Stack Developer with a passion for building clean, accessible, and
+                        performant web applications. With a strong foundation in the MERN stack and Next.js, I thrive in
+                        fast-paced environments where I can own features from concept to deployment. I write code that
+                        is easy to read, test, and maintain.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <p class="contact__text">
+                        Currently open to Frontend and Full-Stack opportunities. Feel free to reach out via email or
+                        connect on LinkedIn.
+                    </p>
+                    <div class="contact__links">
+                        <a href="mailto:chandanpullanikatt@gmail.com"
+                            class="button button--primary">chandanpullanikatt@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/chandan-pullanikatt/" target="_blank"
+                            class="button button--secondary">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__container bd-grid">
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/chandan-pullanikatt/" class="footer__icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Chandan-pullanikatt" class="footer__icon"><i class='bx bxl-github'></i></a>
+                <a href="mailto:chandanpullanikatt@gmail.com" class="footer__icon"><i class='bx bx-envelope'></i></a>
+            </div>
+            <p class="footer__copy">&#169; 2025 Chandan. Built with HTML, CSS, and Vanilla JS.</p>
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
